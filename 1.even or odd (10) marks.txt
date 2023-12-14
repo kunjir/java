@@ -1,0 +1,17 @@
+1.Write a Java program to check whether a number is even or odd. (Use Scanner Class).
+Ans:
+import java.util.*;
+public class EvenOdd
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+int num;
+System.out.println("enter a number:");
+num=sc.nextInt();
+if(num%2==0)
+System.out.println("the entered number is even");
+else
+System.out.println("the entered number is odd");
+}
+}

@@ -1,0 +1,22 @@
+8. Write a Java program to print the factors of a given number. (Use Scanner Class).
+Ans:
+import java.io.*;
+import java.util.*;
+public class Factor
+{
+public static void main(String []args)
+{
+int num,i;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter a number:");
+num=sc.nextInt();
+System.out.println("factors of number are:");
+for(i=1;i<=num;i++)
+{
+if(num%i==0)
+{
+System.out.println(i+" ");
+}
+}
+}
+}
